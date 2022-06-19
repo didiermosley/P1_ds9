@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poke Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,800;1,700&display=swap"
+  rel="stylesheet">
+</head>
+<body>
+  <!-- <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+        <a href="cache.html">Cache</a>
+      </li>
+    </ul>
+  </nav> -->
+
+  <section class="section">
+    <main class="container">
+      <!-- <h1>Poke Info</h1> -->
+      <img class="img" src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="" srcset="">
+      <form class="pokemon-form" action="">
+        <div class="chidren flex">
+            <label for="pokemon-input"class="item">Name:</label>
+            <div class="checkbox">
+              <input type="checkbox" name="Sprites" id="Sprites" class="item"/>
+              <label for="Sprites">Sprites</label>
+              <input type="checkbox" name="Ubicación" id="Ubicación" class="item"/>
+              <label for="Ubicación">Ubicación</label>
+              <label></label><input type="checkbox" name="Cadena de evolución" id="" class="item">Cadena de evolución</input></label><br>
+            </div>
+        </div>
+        <div class="chidren grd">
+          <input id="pokemon-input" type="text">
+          <!-- <div class="space"></div> -->
+            <button type="submit" class="btn">Search</button>
+        </div>
+      </form>
+    </main>
+
+    <div class="results">
+      <h2>Name</h2>
+      <div class="card"><p>Generales</p></div>
+      <div class="card"><p>Sprites</p></div>
+      <div class="card"><p>Ubicación</p></div>
+      <div class="card"><p>Cadena</p></div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

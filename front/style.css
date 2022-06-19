@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #f7f7f7;
+
+}
+section{
+    min-height: 100vh;
+}
+
+.container{
+    width:70%;
+    max-width:799px;
+    height:299px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding:50px;
+}
+
+.children{
+    padding-bottom: 15px;
+}
+
+.pokemon-form{
+    /* outline: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.img{
+    position: absolute;
+    top:70px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.checkbox{
+    display: flex;
+    justify-content:space-between;
+}
+
+.checkbox .item{
+    margin-left: 10px;
+}
+
+.checkbox label{
+    margin-left: 5px;
+}
+
+.grd{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    margin-top: 15px;
+ }
+
+ #pokemon-input{
+    /* max-width:461px; */
+    height: 38px;
+    background:  #D9D9D9;
+    padding: 10px;
+ }
+
+ .btn{
+    height: 38px;
+    /* width:106px; */
+    background-color: #383838;
+    color: #fff;
+    font-weight: 500;
+    padding: 9px;
+}
+
+.btn:hover{
+    background: #1f1f1f;
+    cursor:pointer;
+}
+
+#pokemon-input, .btn{
+    border: none;
+    border-radius: 5px;    
+}
+
+.results{
+    max-width:799px;
+    width:70%;
+    background: #fff;
+    min-height: 100vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    /* outline: 1px solid black; */
+    height:122px;
+    font-size: 32px;
+    /* text-align: center; */
+    /* vertical-align:middle; */
+    margin: 15px 0;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card a{
+    font-size: 32px;
+}
